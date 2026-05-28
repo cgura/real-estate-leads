@@ -50,5 +50,6 @@ npm run build
 ### Netlify Forms notes
 
 - The form on `/` is configured with `data-netlify="true"`, a `form-name` hidden input, and a honeypot field.
+- `public/form.html` contains a static Netlify form declaration required by `@netlify/plugin-nextjs@5` during build-time form detection.
 - After deployment, submit the form once to verify entries in **Netlify Dashboard → Forms**.
 - In Netlify, you can enable email notifications for form submissions under **Forms → Settings & usage**.
